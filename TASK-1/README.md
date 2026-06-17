@@ -30,15 +30,6 @@ This project is a command-line based To-Do List Application developed using Pyth
 * task_manager.py - Main source code
 * Task.txt - Stores task data
 
-## How to Run
-
-1. Clone the repository.
-2. Open the project folder.
-3. Run the Python file:
-
-```bash
-python task_manager.py
-```
 
 ## Sample Menu
 
