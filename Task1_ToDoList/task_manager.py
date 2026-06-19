@@ -1,5 +1,5 @@
 import os
-fname = os.path.join(os.path.dirname(__file__), "Task.txt")
+fname=os.path.join(os.path.dirname(__file__), "Task.txt")
 
 def load():
     tasks=[]
