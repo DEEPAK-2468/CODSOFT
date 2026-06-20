@@ -6,6 +6,8 @@ def load():
     if (os.path.exists(fname)):
         with open(fname,"r") as f:
             for task in f:
+                if not task.strip():
+                    continue
                 temp=task.strip().split("-")
                 temp[0]=int(temp[0])
                 tasks.append(temp)
